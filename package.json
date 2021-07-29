@@ -1,0 +1,14 @@
+{
+  "name": "hawa-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "annlumia <ann.lumia@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.22"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
