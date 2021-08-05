@@ -14,10 +14,10 @@ features:
     details: GAS analyzer yang digunakan untuk memantau emisi sangat bervariasi, hawa dibuat untuk selalu siap dihubungkan dengan berbagai jenis analyzer.
 actions:
   - text: Petunjuk pengoperasian
-    link: /petunjuk-pengoperasian/
+    link: /petunjuk-pengoperasian/membuka-hawa.html
     type: primary
   - text: Panduan installasi
-    link: /guide/
+    link: /panduan-installasi/
     type: secondary
 
 footer: Powered by Gaman Lab & <a href="http://grcteknik.com" target="_blank">PT. Genta Raya Cemerlang</a>

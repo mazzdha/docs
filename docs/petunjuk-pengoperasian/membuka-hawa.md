@@ -1,6 +1,6 @@
-# Mengakses hawa
+# 1. Mengakses hawa
 
-## Persiapan
+## 1.1 Persiapan
 
 Untuk mulai menggunakan atau mengakses CEMS Online, kita memerlukan web browser yang mendukung aplikasi web SPA (Single Page Application).
 
@@ -16,7 +16,7 @@ Jika anda belum memiliki salah satu browser yang disebutkan diatas, kita bisa me
 - [Mozilla firefox](https://www.mozilla.org/id/firefox/new/)
 - [Microsoft edge](https://www.microsoft.com/id-id/edge)
 
-## Membuka hawa
+## 1.2 Membuka hawa
 
 Hawa CEMS online merupakan aplikasi berbasis web yang bisa diakses menggunakan alamat web atau URL (Uniform Resource Locator). Pengaturan standar aplikasi cems online menggunakan port 3000.
 
@@ -28,7 +28,7 @@ Jika kita akan mengakses hawa yang berada pada komputer lain, kita bisa mengakse
 
 Jika kondisi sambungannya seperti yang digambarkan di atas, maka kita bisa mengakses hawa dengan menggunakan alamat [`http://192.168.100.114:3000`](http://192.168.100.114:3000). Tetapi sebelum kita bisa mengakses alamat tersebut, kita harus memastikan bahwa pada firewall, port yang digunakan oleh hawa sudah diberikan akses.
 
-## Login
+## 1.3 Login
 
 ::: danger PERINGATAN
 Untuk menjaga keamanan, mohon segera mengganti username dan password, dan anda juga harus mengingat username dan password yang baru.
@@ -39,18 +39,11 @@ Jika berhasil, tampilan pertama kali yang terbuka adalah halaman login seperti b
 
 Agar kita bisa mengakses fitur-fitur yang tersedia di hawa, kita harus memiliki akun hawa terlebih dahulu.
 Jika belum ada perubahan, secara standar hawa memiliki 2 akun, yaitu akun admin dan operator.
+| Username | Password | Roles |
+|:-|:-|:-|
+|admin | admin123 | Administrators |
+|operator | operator | Operator|
 
-:::warning Akses administrator:
-username: admin
+## 1.4 Mengganti password
 
-password: admin123
-:::
-
-:::warning Akses standar:
-username: operator
-password: operator
-:::
-
-## Mengganti password
-
-## Menambahkan pengguna
+## 1.5 Menambahkan pengguna

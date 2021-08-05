@@ -11,43 +11,62 @@ module.exports = {
     // searchPlaceholder: 'Search...',
 
     navbar: [
-      // NavbarItem
       {
         text: 'Dukungan teknis',
         children: ['/system-requirements/hardware.md'],
       },
-    ],
-    docsDir: 'docs',
-    // sidebar: {
-    //   '/petunjuk-pengoperasian/': [
-    //     '',
-    //     { text: 'Menampilkan trend', link: 'historycal-trend.html' },
-    //     { text: 'Riwayat sinkronisasi', link: 'sync-logs.html' },
-    //     { text: 'Membuat laporan', link: 'report.html' },
-    //     { text: 'Pengaturan', link: 'setting/README.html' },
-    //   ],
 
-    //   '/': ['', '/petunjuk-pengoperasian/', 'README.md'],
-    // },
-    sidebar: [
+      //---------------------------------------------------------------------------------------
+      // Users
+      //
+      // Tambahkan menu untuk user pada field children, polanya mengikuti yang sudah ada
+      //---------------------------------------------------------------------------------------
       {
-        title: 'Panduan installasi',
-        sidebarDepth: 3,
-        children: ['/panduan-installasi/'],
-      },
-      {
-        title: 'Petunjuk pengoperasian',
-        sidebarDepth: 2,
-        collapsable: false, // optional, defaults to true
-        path: '/petunjuk-pengoperasian/',
-
+        text: 'Users',
         children: [
-          '/petunjuk-pengoperasian/membuka-hawa.md',
-          '/petunjuk-pengoperasian/historycal-trend.md',
-          '/petunjuk-pengoperasian/sync-logs.md',
-          '/petunjuk-pengoperasian/report.md',
+          {
+            text: 'PJB UBJOM Rembang',
+            link: '/users/pjb-ubjom-rembang',
+          },
+
+          {
+            text: 'PJB UBJOM Pacitan',
+            link: '/users/pjb-ubjom-pacitan',
+          },
         ],
       },
     ],
+    docsDir: 'docs',
+    sidebar: {
+      '/petunjuk-pengoperasian/': [
+        {
+          text: 'Petunjuk Pengoperasian',
+          sidebarDepth: 2,
+          collapsable: true,
+
+          children: [
+            '/petunjuk-pengoperasian/membuka-hawa.md',
+            '/petunjuk-pengoperasian/historycal-trend.md',
+            '/petunjuk-pengoperasian/sync-logs.md',
+            '/petunjuk-pengoperasian/report.md',
+          ],
+        },
+      ],
+      '/panduan-installasi/': [
+        {
+          text: 'Panduan Installasi',
+          sidebarDepth: 2,
+          collapsable: true,
+          children: [
+            '/petunjuk-pengoperasian/membuka-hawa.md',
+            '/petunjuk-pengoperasian/historycal-trend.md',
+            '/petunjuk-pengoperasian/sync-logs.md',
+            '/petunjuk-pengoperasian/report.md',
+          ],
+        },
+      ],
+
+      '/users/': [''],
+    },
   },
 }
