@@ -69,49 +69,49 @@ Hal yang diperlu diperhatikan saat akan menampilkan alarm :
 
 ### Historical data
 
-Halaman “Historical Data” menampilkan record pembacaan parameter setiap menit, yang dapat digunakan sebagai bahan evaluasi.
+Halaman _“Historical Data”_ menampilkan record pembacaan parameter setiap menit, yang dapat digunakan sebagai bahan evaluasi.
 
 Beberapa yang perlu di perhatikan yaitu :
 
-1. Memilih cerobong, pilih cerobong yang ingin di lihat recordnya pada “Data logger”.
-2. Menentukan rentang waktu record yang ingin ditampilkan pada “Time Range (From-To)”.
-3. Klik “show” untuk menampilkan data record atau “export” untuk menyimpan sebagai excel.
+1. Memilih cerobong, pilih cerobong yang ingin di lihat recordnya pada _“Data logger”_.
+2. Menentukan rentang waktu record yang ingin ditampilkan pada _“Time Range (From-To)”_.
+3. Klik _“show”_ untuk menampilkan data record atau _“export”_ untuk menyimpan sebagai excel.
 
 ![An image](./img/historical-data.png)
 
 ### Historical trend
 
-Halaman “Historical Trend” menampilkan historical data dalam bentuk grafik untuk mendapatkan trending data parameter yang dimonitoring.
+Halaman _“Historical Trend”_ menampilkan historical data dalam bentuk grafik untuk mendapatkan trending data parameter yang dimonitoring.
 Beberapa yang perlu di perhatikan yaitu :
 
-1. Memilih cerobong, pilih cerobong yang ingin di lihat recordnya pada “Data logger”.
-2. Menentukan rentang waktu record yang ingin ditampilkan pada “Time Range (From-To)”.
-3. Menentukan rata-rata tampilan pada pilihan “Average”.
-4. Klik “show” untuk menampilkan data record atau “print” untuk mencetak langsung.
+1. Memilih cerobong, pilih cerobong yang ingin di lihat recordnya pada _“Data logger”_.
+2. Menentukan rentang waktu record yang ingin ditampilkan pada _“Time Range (From-To)”_.
+3. Menentukan rata-rata tampilan pada pilihan _“Average”_.
+4. Klik _“show”_ untuk menampilkan data record atau _“print”_ untuk mencetak langsung.
 
 ![An image](./img/historical-trend.png)
 
 ### Report
 
-Halaman “Report” menampilkan informasi hasil rekap dari parameter monitoring Chimney dengan konsentrasi permenit.
+Halaman _“Report”_ menampilkan informasi hasil rekap dari parameter monitoring Chimney dengan konsentrasi permenit.
 Beberapa yang perlu di perhatikan yaitu :
 
-1. Memilih cerobong, pilih cerobong yang akan dibuat laporannya pada pilihan “Chimney”.
-2. Memilih jenis laporan, pilih jenis laporan yang akan dibuat pada pilihan “Template”.
-3. Menentukan rentang waktu report yang ingin ditampilkan pada “Time Range (From-To)”.
-4. Klik “generate” untuk menampilkan report atau “save as excel” untuk menyimpan sebagai excel.
+1. Memilih cerobong, pilih cerobong yang akan dibuat laporannya pada pilihan _“Chimney”_.
+2. Memilih jenis laporan, pilih jenis laporan yang akan dibuat pada pilihan _“Template”_.
+3. Menentukan rentang waktu report yang ingin ditampilkan pada _“Time Range (From-To)”_.
+4. Klik _“generate”_ untuk menampilkan report atau _“save as excel”_ untuk menyimpan sebagai excel.
 
 ![An image](./img/report.png)
 
 ### Sync Log
 
-Halaman “Sync log” menampilkan riwayat dari sinkronisasi CEMS dengan SIPLAH. Pada menu ini, kita bisa melacak status pengiriman data ke SIPLAH sehingga jika terjadi kesalahan atau kegagalan bisa kita ketahui waktu dan penyebabnya.
+Halaman _“Sync log”_ menampilkan riwayat dari sinkronisasi CEMS dengan SIPLAH. Pada menu ini, kita bisa melacak status pengiriman data ke SIPLAH sehingga jika terjadi kesalahan atau kegagalan bisa kita ketahui waktu dan penyebabnya.
 Informasi yang dapat kita peroleh dari halaman ini diantaranya adalah :
 
-1. “Server” merupakan sistem yang menerima dan mengelola data hasil pemantauan emisi dari CEMS.
-2. “Chimney” merupakan nama cerobong dari data pengukuran yang dikirimkan ke SIPLAH.
-3. “Measurement time” menujukkan waktu pengukuran emisi, jika pada measurement time tertulis “20 Apr 2021 - 08.00” itu berarti data yang dikirimkan adalah data pada tanggal 20 April tahun 2021 jam 08:00 sampai dengan jam 08:59.
-4. “Message”, menunjukan status pengiriman, jika success berarti berhasil dan jika gagal akan ditunjukkan dengan status failed.
+1. _“Server”_ merupakan sistem yang menerima dan mengelola data hasil pemantauan emisi dari CEMS.
+2. _“Chimney”_ merupakan nama cerobong dari data pengukuran yang dikirimkan ke SIPLAH.
+3. _“Measurement time”_ menujukkan waktu pengukuran emisi, jika pada measurement time tertulis “20 Apr 2021 - 08.00” itu berarti data yang dikirimkan adalah data pada tanggal 20 April tahun 2021 jam 08:00 sampai dengan jam 08:59.
+4. _“Message”_, menunjukan status pengiriman, jika success berarti berhasil dan jika gagal akan ditunjukkan dengan status failed.
 
 ![An image](./img/sync-log.png)
 
@@ -123,9 +123,9 @@ Dalam menu settings terdapat beberapa submenu setting, diantaranya adalah :
 
 mengatur data profil perusahaan.
 
-1. “Name”, nama perusahaan.
-2. “Address”, alamat perusahaan.
-3. “Telephone”, nomor telepon perusahaan.
+1. _“Name”_, nama perusahaan.
+2. _“Address”_, alamat perusahaan.
+3. _“Telephone”_, nomor telepon perusahaan.
 
 Setelah mengisi data-data di atas, tekan tombol “save”.
 
@@ -135,25 +135,25 @@ Setelah mengisi data-data di atas, tekan tombol “save”.
 
 Memasukkan otentikasi ke SIPLAH dan untuk uji konektivitas dengan server.
 
-1. “Base Url”, alamat server SIPLAH
-2. “API Key”
+1. _“Base Url”_, alamat server SIPLAH
+2. _“API Key”_
    Kedua data di atas diperoleh dari KLHK setelah perusahaan terdaftar untuk sinkronisasi data.
 
-Setelah mengisi data, klik “save”.
+Setelah mengisi data, klik _“save”_.
 
 ![An image](./img/setting-siplah.png)
 
 **_Chimney_**, mengatur profil cerobong dan konfigurasi sinkronisasi dengan SIPLAH. 
 Langkah – langkah setting chimney :
-1)	Pilih cerobong yang akan dikonfigurasi.
+1. Pilih cerobong yang akan dikonfigurasi.
 
 ![An image](./img/setting-siplah-1.png)
 
-2)	Setelah memilih cerobong, akan muncul form editor seperti berikut :
+2. Setelah memilih cerobong, akan muncul form editor seperti berikut :
 
 ![An image](./img/setting-siplah-2.png)
 
-3)	Isikan data sesuai dengan kondisi aktual 
+3. Isikan data sesuai dengan kondisi aktual 
 - _“Name”_, nama cerobong.
 - _“UID”_
 - _“Sync to SIPLAH”_, aktifkan pengiriman data ke SIPLAH berdasarkan jadwal.
@@ -192,10 +192,10 @@ digunakan untuk mencoba mengirimkan data ke SIPLAH, seperti menguji mapping data
 ![An image](./img/setting-siplah-5.png)
 
 ### Settings Telegram
-1)	Bot
+1. Bot
 - “name” diisi dengan nama pengirim notification.
 - “token” diisi dengan token bot telegram.
-2)	Channel
+2. Channel
 - “name” diisi dengan nama channel telegram.
 - “chat id” diisi dengan id channel telegram.
 
@@ -206,50 +206,50 @@ Klik _“save”_ untuk menyimpan dan isi kolom sending message lalu klik tombol
 ### Settings Report Template
 mengatur format report sesuai dengan kebutuhan user. 
 
-1)	Pilih template yang sudah ada atau klik “create” untuk membuat template baru.
+1. Pilih template yang sudah ada atau klik “create” untuk membuat template baru.
 
 ![An image](./img/setting-report-template.png)
 
-2)	Isikan data pada kolom untuk setting report.
+2. Isikan data pada kolom untuk setting report.
 
 ![An image](./img/setting-report-template-1.png)
 
-- “Name”, nama template.
-- “Time Format”, format tanggal periode.
-- “Data Group”, waktu untuk pengambilan rata-rata data.
-- “Excel Template”, template file dengan format excel.
-- “Sheet name”, nama sheet dalam template.
-- “Time format 1”, format waktu dalam tabel report
-- “Time format 2”, format waktu dalam tabel report
-- “Field list”, daftar parameter yang di masukan ke template, klik “add” untuk menambah parameter :
+- _“Name”_, nama template.
+- _“Time Format”_, format tanggal periode.
+- _“Data Group”_, waktu untuk pengambilan rata-rata data.
+- _“Excel Template”_, template file dengan format excel.
+- _“Sheet name”_, nama sheet dalam template.
+- _“Time format 1”_, format waktu dalam tabel report
+- _“Time format 2”_, format waktu dalam tabel report
+- _“Field list”_, daftar parameter yang di masukan ke template. Klik _“add”_ untuk menambah parameter :
 
 ![An image](./img/setting-report-template-2.png)
 
 
-- > Kolom “Function”, pilih jenis kalkulasi data yang akan di tampilkan.
-- >Kolom “Field”, masukan nama parameter pada logger / metode perhitungan datanya.
-- >Kolom “Alias”, masukan nama data yang akan di gunakan pada template.
-Klik “save” untuk menyimpan setting template.
+- > Kolom _“Function”_, pilih jenis kalkulasi data yang akan di tampilkan.
+- >Kolom _“Field”_, masukan nama parameter pada logger / metode perhitungan datanya.
+- >Kolom _“Alias”_, masukan nama data yang akan di gunakan pada template.
+Klik _“save”_ untuk menyimpan setting template.
 
 
 ### Settings Users
 
 Mengubah atau menambahkan user yang dapat membuka aplikasi.
 
-1)	Pilih user yang sudah ada atau klik “New user” untuk membuat user baru.
+1. Pilih user yang sudah ada atau klik _“New user”_ untuk membuat user baru.
 
 ![An image](./img/setting-users.png)
 
-2)	Isikan data pada kolom yang tersedia.
+2. Isikan data pada kolom yang tersedia.
 
 ![An image](./img/setting-users-1.png)
 
-- “Full name”, nama lengkap.
-- “Email”, alamat email.
-- “Username”, nama yang digunakan untuk login.
-- “Password”, password yang digunakan untuk login.
-- “Password verification”, pengulangan password.
-- “Roles”, menentukan wewenang user.
+- _“Full name”_, nama lengkap.
+- _“Email”_, alamat email.
+- _“Username”_, nama yang digunakan untuk login.
+- _“Password”_, password yang digunakan untuk login.
+- _“Password verification”_, pengulangan password.
+- _“Roles”_, menentukan wewenang user.
 
 ### Logout
 
