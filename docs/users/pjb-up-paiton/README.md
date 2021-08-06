@@ -1,8 +1,8 @@
-# PT PJB UBJOM Pacitan
+# PT PJB UP PAITON
 
-![An Image](./img/home.png)
+![An image](./img/home.png)
 
-## Daftar Isi 
+## Daftar Isi
 
 [[toc]]
 
@@ -19,27 +19,42 @@ Username dan password standar bawaan aplikasi adalah:
 
 | Username | Password |
 |----------|----------|
-|  admin   | admin123 |
+| admin    | admin123 |
 | operator | operator |
 
-![An Image](./img/login.png)
+![An image](./img/login.png)
 
 ### Home
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Setelah proses login selesai akan menampilkan halaman HOME yang menampilkan informasi parameter untuk monitoring secara realtime. Pada halaman HOME terdapat beberapa menu yaitu :
 
-1.	Chimney 12
-Menu Chimney 12 menampilkan parameter sebagai berikut :
-- RAW Data
-- Process Parameters & Standardized Data
+**1.Unit 1**
 
-![An Image](./img/unit-12.png)
+Menu Unit 1 menampilkan parameter sebagai berikut :
+-	O2 Correction
+-	Opacity & Total Particulate
+-	Pressure
+-	Gas Analyzer
+-	Load
 
-### Alarm 
+![An Image](./img/unit1.png)
+
+**2.	Unit 2**
+
+Menu Unit 2 menampilkan parameter sebagai berikut :
+-	O2 Correction
+-	Opacity & Total Particulate
+-	Pressure
+-	Gas Analyzer
+-	Load
+
+![An Image](./img/unit2.png)
+
+### Alarm
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Halaman “Alarm” berfungsi menampilkan realtime alarm dan history dari alarm. 
+Halaman _“Alarm”_ berfungsi menampilkan realtime alarm dan history dari alarm. 
 
 Hal yang diperlu diperhatikan saat akan menampilkan alarm :
 1)	Refresh\
@@ -71,7 +86,7 @@ Beberapa yang perlu di perhatikan yaitu :
 Halaman _“Historical Trend”_ menampilkan historical data dalam bentuk grafik untuk mendapatkan trending data parameter yang dimonitoring. 
 Beberapa yang perlu di perhatikan yaitu :
 1)	Memilih cerobong, pilih cerobong yang ingin di lihat recordnya pada _“Data logger”_.
-2)	Menentukan rentang waktu record yang ingin ditampilkan pada _“Time Range (From-To)”_.
+2)	Menentukan rentang waktu record yang ingin ditampilkan pada _“Time Range (From-To)”._
 3)	Menentukan rata-rata tampilan pada pilihan _“Average”_.
 4)	Klik _“show”_ untuk menampilkan data record atau _“print”_ untuk mencetak langsung.
 
@@ -85,7 +100,7 @@ Beberapa yang perlu di perhatikan yaitu :
 1)	Memilih cerobong, pilih cerobong yang akan dibuat laporannya pada pilihan _“Chimney”_.
 2)	Memilih jenis laporan, pilih jenis laporan yang akan dibuat pada pilihan _“Template”_.
 3)	Menentukan rentang waktu report yang ingin ditampilkan pada _“Time Range (From-To)”_.
-4)	Klik _“Generate”_ untuk menampilkan report atau _“save as excel”_ untuk menyimpan sebagai excel.
+4)	Klik _“Generate”_ untuk menampilkan report atau “save as excel” untuk menyimpan sebagai excel.
 
 ![An Image](./img/report.png)
 
@@ -96,10 +111,10 @@ Halaman _“Sync log”_ menampilkan riwayat dari sinkronisasi CEMS dengan SIPLA
 Informasi yang dapat kita peroleh dari halaman ini diantaranya adalah :
 1)	_“Server”_ merupakan sistem yang menerima dan mengelola data hasil pemantauan emisi dari CEMS.
 2)	_“Chimney”_ merupakan nama cerobong dari data pengukuran yang dikirimkan ke SIPLAH.
-3)	_“Measurement time”_ menujukkan waktu pengukuran emisi, jika pada measurement time tertulis “21 Apr 2021 - 11.00”  itu berarti data yang dikirimkan adalah data pada tanggal 21 April tahun 2021 jam 11:00 sampai dengan jam 11:59.
+3)	_“Measurement time”_ menujukkan waktu pengukuran emisi, jika pada measurement time tertulis “20 Apr 2021 - 08.00”  itu berarti data yang dikirimkan adalah data pada tanggal 20 April tahun 2021 jam 08:00 sampai dengan jam 08:59.
 4)	_“Message”_, menunjukan status pengiriman, jika success berarti berhasil dan jika gagal akan ditunjukkan dengan status failed.
 
-![An Image](./img/sync-log.png)
+![An Image](./img/sync-loc.png)
 
 ## Pengaturan Aplikasi
 
@@ -110,25 +125,23 @@ Dalam menu settings terdapat beberapa submenu setting, diantaranya adalah :
 mengatur data profil perusahaan. 
 1)	_“Name”_, nama perusahaan.
 2)	_“Address”_, alamat perusahaan.
-3)	_“Telephone”_, nomor telepon perusahaan.
+3)	_“Telephone”_, nomor telepon perusahaan.\
+Setelah mengisi data-data di atas, tekan tombol _“save”_.
 
 ![An Image](./img/setting.png)
 
-Setelah mengisi data-data di atas, tekan tombol _“save”_.
-
 ### Settings SIPLAH
-
 memasukkan otentikasi ke SIPLAH dan untuk uji konektivitas dengan server.
 1)	_“Base Url”_, alamat server SIPLAH
-2)	_“API Key”_
-Kedua data di atas diperoleh dari KLHK setelah perusahaan terdaftar untuk sinkronisasi data.
+2)	_“API Key”_\
+Kedua data di atas diperoleh dari KLHK setelah perusahaan terdaftar untuk sinkronisasi data.\
+Setelah mengisi data, klik _“save”_.
 
 ![An Image](./img/setting-siplah.png)
 
-Setelah mengisi data, klik “save”.
-
-**_“Chimneys”_**, mengatur profil cerobong dan konfigurasi sinkronisasi dengan SIPLAH. 
+_"**Chimneys**"_ mengatur profil cerobong dan konfigurasi sinkronisasi dengan SIPLAH. 
 Langkah – langkah setting chimney :
+
 1)	Pilih cerobong yang akan dikonfigurasi.
 
 ![An Image](./img/setting-siplah-1.png)
@@ -152,12 +165,12 @@ Langkah – langkah setting chimney :
 - _“Sync success notif”_, aktifkan notifikasi telegram setiap kali berhasil mengirimkan data ke SIPLAH.
 - _“Max resend count”_, batas maksimal percobaan pengiriman. Jika batas ini tercapai, maka data tidak akan dikirimkan lagi walaupun belum berhasil.
 
-a.	SIPLAH Required Parameter\
-	digunakan untuk mendapatkan informasi dari SIPLAH mengenai parameter  yang wajib dikirimkan ke SIPLAH. Klik “Get Required Parameters”.
+**a. SIPLAH Required Parameter**\
+	digunakan untuk mendapatkan informasi dari SIPLAH mengenai parameter  yang wajib dikirimkan ke SIPLAH. Klik _“Get Required Parameters”_.
 
 ![An Image](./img/setting-siplah-3.png)
 
-b.	SIPLAH Parameters Map\
+**b. SIPLAH Parameters Map**\
 mapping parameter yang akan dikirimkan ke SIPLAH.
 
 ![An Image](./img/setting-siplah-4.png)
@@ -168,7 +181,8 @@ mapping parameter yang akan dikirimkan ke SIPLAH.
 - Kolom _“source”_, diisi dengan nama parameter pada logger dan metode perhitungan datanya.
 - _“Destination”_, harus diisi sesuai dengan penamaan parameter pada SIPLAH.
 
-c.	Submit data to SIPLAH\
+
+**c. Submit data to SIPLAH**\
 digunakan untuk mencoba mengirimkan data ke SIPLAH, seperti menguji mapping data dan otentikasi ke SIPLAH. 
 - Atur tanggal dan jam data yang akan dicoba untuk dikirim.
 - Klik _“Submit”_, jika berhasil maka akan ada pesan success.	
@@ -177,15 +191,15 @@ digunakan untuk mencoba mengirimkan data ke SIPLAH, seperti menguji mapping data
 
 ### Settings Telegram
 1)	Bot
-- “name” diisi dengan nama pengirim notification.
-- “token” diisi dengan token bot telegram.
+- _“name”_ diisi dengan nama pengirim notification.
+- _“token”_ diisi dengan token bot telegram.
 2)	Channel
-- “name” diisi dengan nama channel telegram.
-- “chat id” diisi dengan id channel telegram.
+- _“name”_ diisi dengan nama channel telegram.
+- _“chat id”_ diisi dengan id channel telegram.
 
 ![An Image](./img/setting-telegram.png)
 
-Klik _“save”_ untuk menyimpan dan isi kolom sending message lalu klik tombol _“send”_ untuk tes kirim notifikasi.
+Klik _“save”_ untuk menyimpan dan isi kolom sending message lalu klik tombol “send” untuk tes kirim notifikasi.
 
 ### Settings Report Template
 mengatur format report sesuai dengan kebutuhan user. 
@@ -194,27 +208,8 @@ mengatur format report sesuai dengan kebutuhan user.
 
 ![An Image](./img/setting-report-template.png)
 
-2)	Isikan data pada kolom untuk setting report.
-
-![An Image](./img/setting-report-template-1.png)
-
-- _“Name”_, nama template.
-- _“Time Format”_, format tanggal periode.
-- _“Data Group”_, waktu untuk pengambilan rata-rata data.
-- _“Excel Template”_, template file dengan format excel.
-- _“Sheet name”_, nama sheet dalam template.
-- _“Time format 1”_, format waktu dalam tabel report
-- _“Time format 2”_, format waktu dalam tabel report
-- _“Field list”_, daftar parameter yang di masukan ke template. Klik _“add”_ untuk menambah parameter
-
-![An Image](./img/setting-report-template-2.png)
-
-- > Kolom _“Function”_, pilih jenis kalkulasi data yang akan di tampilkan.
-- > Kolom _“Field”_, masukan nama parameter pada logger / metode perhitungan datanya.
-- > Kolom _“Alias”_, masukan nama data yang akan di gunakan pada template.
-Klik _“save”_ untuk menyimpan setting template.
-
 ### Settings Users
+
 mengubah atau menambahkan user yang dapat membuka aplikasi.
 
 1)	Pilih user yang sudah ada atau klik “New user” untuk membuat user baru.
@@ -225,8 +220,9 @@ mengubah atau menambahkan user yang dapat membuka aplikasi.
 
 ![An Image](./img/setting-users-1.png)
 
+
 - _“Full name”_, nama lengkap.
-- _“Email”_, alamat email.
+- _"Email”_, alamat email.
 - _“Username”_, nama yang digunakan untuk login.
 - _“Password”_, password yang digunakan untuk login.
 - _“Password verification”_, pengulangan password.
@@ -240,5 +236,38 @@ Proses keluar dari aplikasi Continuous Emission Monitoring System dengan cara me
 ![An Image](./img/logout.png)
 
 ![An Image](./img/logout-1.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

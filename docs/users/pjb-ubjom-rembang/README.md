@@ -141,4 +141,124 @@ Memasukkan otentikasi ke SIPLAH dan untuk uji konektivitas dengan server.
 
 Setelah mengisi data, klik “save”.
 
+![An image](./img/setting-siplah.png)
+
+**_Chimney_**, mengatur profil cerobong dan konfigurasi sinkronisasi dengan SIPLAH. 
+Langkah – langkah setting chimney :
+1)	Pilih cerobong yang akan dikonfigurasi.
+
 ![An image](./img/setting-siplah-1.png)
+
+2)	Setelah memilih cerobong, akan muncul form editor seperti berikut :
+
+![An image](./img/setting-siplah-2.png)
+
+3)	Isikan data sesuai dengan kondisi aktual 
+- _“Name”_, nama cerobong.
+- _“UID”_
+- _“Sync to SIPLAH”_, aktifkan pengiriman data ke SIPLAH berdasarkan jadwal.
+- _“Synchron Schedule”_, jadwal pengiriman data ke SIPLAH
+- _“Average Group”_
+- _“Data Source”_, nama cerobong
+- _“Time field alias”_
+- _“Time Format”_, format waktu yang digunakan
+- _“Retries”_
+- _“Retry Interval”_, interval percobaan pengiriman ulang data yang gagal.
+- _“Server Time Zone”_, zona waktu yang di gunakan data yang dikirimkan. 
+- _“Sync success notif”_, aktifkan notifikasi telegram setiap kali berhasil mengirimkan data ke SIPLAH.
+- _“Max resend count”_, batas maksimal percobaan pengiriman. Jika batas ini tercapai, maka data tidak akan dikirimkan lagi walaupun belum berhasil.
+
+a.	SIPLAH Required Parameter\
+	digunakan untuk mendapatkan informasi dari SIPLAH mengenai parameter  yang wajib dikirimkan ke SIPLAH. Klik “Get Required Parameters”.
+
+![An image](./img/setting-siplah-3.png)
+
+b.	SIPLAH Parameters Map\
+mapping parameter yang akan dikirimkan ke SIPLAH.
+
+![An image](./img/setting-siplah-4.png)
+
+- _“Reset”_, untuk menghapus seluruh parameter.
+- _“Add”_, untuk menambahkan parameter.
+- _“Function”_ 
+- Kolom _“source”_, diisi dengan nama parameter pada logger dan metode perhitungan datanya.
+- _“Destination”_, harus diisi sesuai dengan penamaan parameter pada SIPLAH.
+
+c.	Submit data to SIPLAH\
+digunakan untuk mencoba mengirimkan data ke SIPLAH, seperti menguji mapping data dan otentikasi ke SIPLAH. 
+- Atur tanggal dan jam data yang akan dicoba untuk dikirim.
+- Klik _“Submit”_, jika berhasil maka akan ada pesan success.	
+
+![An image](./img/setting-siplah-5.png)
+
+### Settings Telegram
+1)	Bot
+- “name” diisi dengan nama pengirim notification.
+- “token” diisi dengan token bot telegram.
+2)	Channel
+- “name” diisi dengan nama channel telegram.
+- “chat id” diisi dengan id channel telegram.
+
+![An image](./img/setting-telegram.png)
+
+Klik _“save”_ untuk menyimpan dan isi kolom sending message lalu klik tombol _“send”_ untuk tes kirim notifikasi.
+
+### Settings Report Template
+mengatur format report sesuai dengan kebutuhan user. 
+
+1)	Pilih template yang sudah ada atau klik “create” untuk membuat template baru.
+
+![An image](./img/setting-report-template.png)
+
+2)	Isikan data pada kolom untuk setting report.
+
+![An image](./img/setting-report-template-1.png)
+
+- “Name”, nama template.
+- “Time Format”, format tanggal periode.
+- “Data Group”, waktu untuk pengambilan rata-rata data.
+- “Excel Template”, template file dengan format excel.
+- “Sheet name”, nama sheet dalam template.
+- “Time format 1”, format waktu dalam tabel report
+- “Time format 2”, format waktu dalam tabel report
+- “Field list”, daftar parameter yang di masukan ke template, klik “add” untuk menambah parameter :
+
+![An image](./img/setting-report-template-2.png)
+
+
+- > Kolom “Function”, pilih jenis kalkulasi data yang akan di tampilkan.
+- >Kolom “Field”, masukan nama parameter pada logger / metode perhitungan datanya.
+- >Kolom “Alias”, masukan nama data yang akan di gunakan pada template.
+Klik “save” untuk menyimpan setting template.
+
+
+### Settings Users
+
+Mengubah atau menambahkan user yang dapat membuka aplikasi.
+
+1)	Pilih user yang sudah ada atau klik “New user” untuk membuat user baru.
+
+![An image](./img/setting-users.png)
+
+2)	Isikan data pada kolom yang tersedia.
+
+![An image](./img/setting-users-1.png)
+
+- “Full name”, nama lengkap.
+- “Email”, alamat email.
+- “Username”, nama yang digunakan untuk login.
+- “Password”, password yang digunakan untuk login.
+- “Password verification”, pengulangan password.
+- “Roles”, menentukan wewenang user.
+
+### Logout
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Proses keluar dari aplikasi Continuous Emission Monitoring System dengan cara menekan icon user pada sebelah kanan kemudian menekan tombol logout maka akan menampilkan halaman login yang berarti telah keluar dari aplikasi.
+
+![An image](./img/logout.png)
+
+![An image](./img/logout-1.png)
+ 
+
+

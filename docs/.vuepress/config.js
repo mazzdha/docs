@@ -32,6 +32,11 @@ module.exports = {
           {
             text: 'PJB UBJOM Pacitan',
             link: '/users/pjb-ubjom-pacitan',
+        
+          },
+          {
+            text: 'PJB UP Paiton',
+            link: '/users/pjb-up-paiton',
           },
         ],
       },
