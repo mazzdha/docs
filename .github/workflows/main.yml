@@ -57,8 +57,9 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          # deploy to gh-pages branch
-          target_branch: gh-pages
+          repo: https://github.com/cems-online/cems-online.github.io.git
+          # deploy to main branch
+          target_branch: main
           # deploy the default output dir of VuePress
           build_dir: docs/.vuepress/dist
         env:
