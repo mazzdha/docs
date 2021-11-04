@@ -13,5 +13,3 @@ Terima kasih yang mendalam kami sampaikan kepada semua pihak yang telah bersedia
 ## Kontributor
 
 a.josia, annlumia, abdur.rozaq, hotmanJw, anissskh, anas.vian, maswi, anam.ipul
-
-<contributors />
