@@ -8,17 +8,18 @@ module.exports = {
 
     // // search: false,
     // searchMaxSuggestions: 10,
-    // searchPlaceholder: 'Search...',
+    searchPlaceholder: 'Search...',
 
     navbar: [
       {
         text: 'Setting',
         link: '/setting/telegram/',
-        // children: [{text: 'GRC Teknik', link: 'https://grcteknik.com/contact-us/'}],
       },
       {
         text: 'Dukungan teknis',
-        children: [{text: 'GRC Teknik', link: 'https://grcteknik.com/contact-us/'}],
+        children: [
+          { text: 'GRC Teknik', link: 'https://grcteknik.com/contact-us/' },
+        ],
       },
     ],
     docsDir: 'docs',
@@ -63,9 +64,7 @@ module.exports = {
               sidebarDepth: 3,
               collapsable: true,
               link: '/setting/chimney/parameter.html',
-              children: [
-                '/setting/chimney/parameter.md',
-              ]              
+              children: ['/setting/chimney/parameter.md'],
             },
             '/setting/telegram/readme.md',
           ],
