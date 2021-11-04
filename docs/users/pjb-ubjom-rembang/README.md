@@ -27,6 +27,7 @@ Continuous Emission Monitoring System digunakan untuk memonitoring kadar buangan
 
 ### Home
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Setelah proses login selesai akan menampilkan halaman HOME yang menampilkan informasi parameter untuk monitoring secara realtime. Pada halaman HOME terdapat beberapa menu yaitu :
 
 **1. Unit 1**
@@ -49,6 +50,7 @@ Menu Unit 2 menampilkan parameter sebagai berikut :
 
 ### Alarm
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Halaman “Alarm” berfungsi menampilkan realtime alarm dan history dari alarm.
 
 Hal yang diperlu diperhatikan saat akan menampilkan alarm :
@@ -69,6 +71,7 @@ Hal yang diperlu diperhatikan saat akan menampilkan alarm :
 
 ### Historical data
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Halaman _“Historical Data”_ menampilkan record pembacaan parameter setiap menit, yang dapat digunakan sebagai bahan evaluasi.
 
 Beberapa yang perlu di perhatikan yaitu :
@@ -81,6 +84,7 @@ Beberapa yang perlu di perhatikan yaitu :
 
 ### Historical trend
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Halaman _“Historical Trend”_ menampilkan historical data dalam bentuk grafik untuk mendapatkan trending data parameter yang dimonitoring.
 Beberapa yang perlu di perhatikan yaitu :
 
@@ -93,6 +97,7 @@ Beberapa yang perlu di perhatikan yaitu :
 
 ### Report
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Halaman _“Report”_ menampilkan informasi hasil rekap dari parameter monitoring Chimney dengan konsentrasi permenit.
 Beberapa yang perlu di perhatikan yaitu :
 
@@ -105,6 +110,7 @@ Beberapa yang perlu di perhatikan yaitu :
 
 ### Sync Log
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Halaman _“Sync log”_ menampilkan riwayat dari sinkronisasi CEMS dengan SIPLAH. Pada menu ini, kita bisa melacak status pengiriman data ke SIPLAH sehingga jika terjadi kesalahan atau kegagalan bisa kita ketahui waktu dan penyebabnya.
 Informasi yang dapat kita peroleh dari halaman ini diantaranya adalah :
 
@@ -117,11 +123,11 @@ Informasi yang dapat kita peroleh dari halaman ini diantaranya adalah :
 
 ## Pengaturan Aplikasi
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Dalam menu settings terdapat beberapa submenu setting, diantaranya adalah :
 
 ### Company Profile
-
-mengatur data profil perusahaan.
+Mengatur data profil perusahaan.
 
 1. _“Name”_, nama perusahaan.
 2. _“Address”_, alamat perusahaan.
@@ -132,7 +138,6 @@ Setelah mengisi data-data di atas, tekan tombol “save”.
 ![An image](./img/setting.png)
 
 ### SIPLAH
-
 Memasukkan otentikasi ke SIPLAH dan untuk uji konektivitas dengan server.
 
 1. _“Base Url”_, alamat server SIPLAH
@@ -168,12 +173,12 @@ Langkah – langkah setting chimney :
 - _“Sync success notif”_, aktifkan notifikasi telegram setiap kali berhasil mengirimkan data ke SIPLAH.
 - _“Max resend count”_, batas maksimal percobaan pengiriman. Jika batas ini tercapai, maka data tidak akan dikirimkan lagi walaupun belum berhasil.
 
-a.	SIPLAH Required Parameter\
-	digunakan untuk mendapatkan informasi dari SIPLAH mengenai parameter  yang wajib dikirimkan ke SIPLAH. Klik “Get Required Parameters”.
+a.	**SIPLAH Required Parameter**\
+Digunakan untuk mendapatkan informasi dari SIPLAH mengenai parameter  yang wajib dikirimkan ke SIPLAH. Klik “Get Required Parameters”.
 
 ![An image](./img/setting-siplah-3.png)
 
-b.	SIPLAH Parameters Map\
+b.	**SIPLAH Parameters Map**\
 mapping parameter yang akan dikirimkan ke SIPLAH.
 
 ![An image](./img/setting-siplah-4.png)
@@ -184,7 +189,7 @@ mapping parameter yang akan dikirimkan ke SIPLAH.
 - Kolom _“source”_, diisi dengan nama parameter pada logger dan metode perhitungan datanya.
 - _“Destination”_, harus diisi sesuai dengan penamaan parameter pada SIPLAH.
 
-c.	Submit data to SIPLAH\
+c.	**Submit data to SIPLAH**\
 digunakan untuk mencoba mengirimkan data ke SIPLAH, seperti menguji mapping data dan otentikasi ke SIPLAH. 
 - Atur tanggal dan jam data yang akan dicoba untuk dikirim.
 - Klik _“Submit”_, jika berhasil maka akan ada pesan success.	
@@ -193,18 +198,18 @@ digunakan untuk mencoba mengirimkan data ke SIPLAH, seperti menguji mapping data
 
 ### Settings Telegram
 1. Bot
-- “name” diisi dengan nama pengirim notification.
-- “token” diisi dengan token bot telegram.
+- _“name”_ diisi dengan nama pengirim notification.
+- _“token”_ diisi dengan token bot telegram.
 2. Channel
-- “name” diisi dengan nama channel telegram.
-- “chat id” diisi dengan id channel telegram.
+- _“name”_ diisi dengan nama channel telegram.
+- _“chat id”_ diisi dengan id channel telegram.
 
 ![An image](./img/setting-telegram.png)
 
 Klik _“save”_ untuk menyimpan dan isi kolom sending message lalu klik tombol _“send”_ untuk tes kirim notifikasi.
 
 ### Settings Report Template
-mengatur format report sesuai dengan kebutuhan user. 
+Mengatur format report sesuai dengan kebutuhan user. 
 
 1. Pilih template yang sudah ada atau klik “create” untuk membuat template baru.
 
@@ -226,14 +231,13 @@ mengatur format report sesuai dengan kebutuhan user.
 ![An image](./img/setting-report-template-2.png)
 
 
-- > Kolom _“Function”_, pilih jenis kalkulasi data yang akan di tampilkan.
+- >Kolom _“Function”_, pilih jenis kalkulasi data yang akan di tampilkan.
 - >Kolom _“Field”_, masukan nama parameter pada logger / metode perhitungan datanya.
 - >Kolom _“Alias”_, masukan nama data yang akan di gunakan pada template.
 Klik _“save”_ untuk menyimpan setting template.
 
 
 ### Settings Users
-
 Mengubah atau menambahkan user yang dapat membuka aplikasi.
 
 1. Pilih user yang sudah ada atau klik _“New user”_ untuk membuat user baru.

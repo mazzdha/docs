@@ -38,6 +38,35 @@ module.exports = {
             text: 'PJB UP Paiton',
             link: '/users/pjb-up-paiton',
           },
+
+          {
+            text: 'PJB UBJOM Indramayu',
+            link: '/users/pjb-ubjom-indramayu',
+        
+          },
+          
+          {
+            text: 'PJB UP Gresik',
+            link: '/users/pjb-up-gresik',
+        
+          },
+
+          {
+            text: 'PJB UBJOM Tanjung Awar Awar',
+            link: '/users/pjb-ubjom-tanjung-awar-awar',
+        
+          },
+
+          {
+            text: 'PJB UBJOM Paiton 9',
+            link: '/users/pjb-ubjom-paiton-9',
+        
+          },
+
+
+
+
+
         ],
       },
     ],
