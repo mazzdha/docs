@@ -1,6 +1,6 @@
 module.exports = {
   lang: 'id-ID',
-  // title: 'petunjuk',
+  title: 'CEMS Online',
   description: 'Dokumentasi aplikasi CEMS Online berbasis hawa',
 
   themeConfig: {
@@ -12,62 +12,13 @@ module.exports = {
 
     navbar: [
       {
-        text: 'Dukungan teknis',
-        children: ['/system-requirements/hardware.md'],
+        text: 'Setting',
+        link: '/setting/telegram/',
+        // children: [{text: 'GRC Teknik', link: 'https://grcteknik.com/contact-us/'}],
       },
-
-      //---------------------------------------------------------------------------------------
-      // Users
-      //
-      // Tambahkan menu untuk user pada field children, polanya mengikuti yang sudah ada
-      //---------------------------------------------------------------------------------------
       {
-        text: 'Users',
-        children: [
-          {
-            text: 'PJB UBJOM Rembang',
-            link: '/users/pjb-ubjom-rembang',
-          },
-
-          {
-            text: 'PJB UBJOM Pacitan',
-            link: '/users/pjb-ubjom-pacitan',
-        
-          },
-          {
-            text: 'PJB UP Paiton',
-            link: '/users/pjb-up-paiton',
-          },
-
-          {
-            text: 'PJB UBJOM Indramayu',
-            link: '/users/pjb-ubjom-indramayu',
-        
-          },
-          
-          {
-            text: 'PJB UP Gresik',
-            link: '/users/pjb-up-gresik',
-        
-          },
-
-          {
-            text: 'PJB UBJOM Tanjung Awar Awar',
-            link: '/users/pjb-ubjom-tanjung-awar-awar',
-        
-          },
-
-          {
-            text: 'PJB UBJOM Paiton 9',
-            link: '/users/pjb-ubjom-paiton-9',
-        
-          },
-
-
-
-
-
-        ],
+        text: 'Dukungan teknis',
+        children: [{text: 'GRC Teknik', link: 'https://grcteknik.com/contact-us/'}],
       },
     ],
     docsDir: 'docs',
@@ -96,6 +47,27 @@ module.exports = {
             '/petunjuk-pengoperasian/historycal-trend.md',
             '/petunjuk-pengoperasian/sync-logs.md',
             '/petunjuk-pengoperasian/report.md',
+          ],
+        },
+      ],
+
+      '/setting/': [
+        {
+          text: 'Setting',
+          sidebarDepth: 3,
+          collapsable: true,
+
+          children: [
+            {
+              text: 'Chimney',
+              sidebarDepth: 3,
+              collapsable: true,
+              link: '/setting/chimney/parameter.html',
+              children: [
+                '/setting/chimney/parameter.md',
+              ]              
+            },
+            '/setting/telegram/readme.md',
           ],
         },
       ],
