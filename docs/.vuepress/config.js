@@ -44,12 +44,7 @@ module.exports = {
           text: 'Panduan Installasi',
           sidebarDepth: 2,
           collapsable: true,
-          children: [
-            '/petunjuk-pengoperasian/membuka-hawa.md',
-            '/petunjuk-pengoperasian/historycal-trend.md',
-            '/petunjuk-pengoperasian/sync-logs.md',
-            '/petunjuk-pengoperasian/report.md',
-          ],
+          children: ['/dev.md'],
         },
       ],
 
