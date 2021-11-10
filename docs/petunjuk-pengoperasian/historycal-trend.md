@@ -13,13 +13,13 @@ Beberapa hal yang perlu di perhatikan dalam menampilkan trending adalah sebagai 
 2. Menentukan rentang waktu trending yang ingin ditampilkan pada tombol jam (From-To).
 3. Menentukan rata-rata tampilan pada tombol `Average`.
 4. Memilih parameter yang ingin ditampilkan pada tombol `Select parameters`.
-5. Klik `icon refresh` untuk menampilkan trending.
+5. Klik `tombol refresh` untuk menampilkan trending.
 6. Menentukan jenis tampilan trending dengan klik tombol pada sebelah kanan. 
 
 Terdapat 2 (dua) jenis tampilan trending, yaitu : 
-- Trending dengan tampilan grafik per parameter. Klik icon kotak satu pada sebelah kanan maka akan muncul tampilan seperti berikut :
+- Trending dengan tampilan grafik per parameter. Klik `tombol satu kotak` pada sebelah kanan maka akan muncul tampilan seperti berikut :
 ![image not found](./images/trending.png)
 
-- Trending dengan tampilan keseluruhan parameter dalam satu grafik. Klik icon empat kotak pada sebelah kanan maka akan muncul tampilan seperti berikut : 
+- Trending dengan tampilan dari beberapa parameter sesuai dengan filter dalam satu grafik. Klik `tombol empat kotak` pada sebelah kanan maka akan muncul tampilan seperti berikut : 
 ![image not found](./images/trending2.png)
 
