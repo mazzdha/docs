@@ -6,7 +6,7 @@ Pada Hawa, laporan berarti rekapitulasi dari pengukuran parameter pada cerobong 
 
 Untuk membuat laporan kita bisa membuka menu `Report` dengan cara klik tombol report pada menu navigasi.
 
-Setelah tombol report di klik, Hawa akan menampilkan layar seperti berikut:
+Setelah tombol report di klik, Hawa akan menampilkan layar seperti berikut :
 ![An image](./images/report.png)
 
 Pada tampilan report terdapat toolbar, diantaranya adalah:
