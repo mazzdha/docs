@@ -1,4 +1,4 @@
-# 3. Melihat riwayat sinkronisasi
+# 5. Melihat riwayat sinkronisasi
 
 ## Riwayat sinkronisasi dengan SISPEK
 
