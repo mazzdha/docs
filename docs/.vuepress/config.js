@@ -1,6 +1,6 @@
 module.exports = {
   lang: 'id-ID',
-  title: 'CEMS Online',
+  title: 'Panduan',
   description: 'Dokumentasi aplikasi CEMS Online berbasis hawa',
 
   themeConfig: {
@@ -32,9 +32,10 @@ module.exports = {
 
           children: [
             '/petunjuk-pengoperasian/membuka-hawa.md',
-            '/petunjuk-pengoperasian/historycal-trend.md',
-            '/petunjuk-pengoperasian/sync-logs.md',
             '/petunjuk-pengoperasian/report.md',
+            '/petunjuk-pengoperasian/historycal-trend.md',
+            '/petunjuk-pengoperasian/alarm.md',
+            '/petunjuk-pengoperasian/sync-logs.md',
           ],
         },
       ],
