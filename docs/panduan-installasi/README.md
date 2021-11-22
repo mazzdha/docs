@@ -1,3 +1,1 @@
 # Panduan installasi
-
-## Syarat sistem

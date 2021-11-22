@@ -14,7 +14,7 @@ Pada tampilan alarm terdapat toolbar, diantaranya adalah:
 | Menu          | Deskripsi                                                                                                                                       |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Time range          | Menentukan rentang waktu history alarm yang ingin ditampilkan (Start date – End date). |
-| Status                 |  Tombol ini digunakan untuk memilih status alarm yang ingin ditampilkan. Terdapat 3 status alarm. Active : status alarm coming (C). Inactive status alarm on going (G). Acknowledge status alarm yang telah diack (A)
+| Status              |  Tombol ini digunakan untuk memilih status alarm yang ingin ditampilkan. Terdapat 3 status alarm. `Active`, status alarm coming (C). `Inactive`, status alarm on going (G). `Acknowledge`, status alarm yang telah diack (A).       |
 | Message       |  Tombol ini berfungsi untuk memfilter message yang akan ditampilkan pada alarm.                    |
 | Apply         | Klik tombol ini untuk menerapkan filter dan menampilkan alarm. |
 | Ack           | Tombol ini digunakan untuk mematikan notifikasi alarm seperti tampilan kedap kedip pada alarm. |
