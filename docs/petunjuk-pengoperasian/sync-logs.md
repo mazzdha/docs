@@ -16,6 +16,7 @@ Informasi yang dapat kita peroleh dari riwayat sinkronisasi diantaranya adalah :
 
 ## Riwayat sinkronisasi dengan SISPEK
 
+Menampilkan riwayat sinkronisasi yang dikirimkan ke SISPEK
 
 
 ## Riwayat sinkronisasi dengan SIPLAH
