@@ -24,7 +24,7 @@ Sehingga jika kita ingin membuka pada komputer dimana aplikasi hawa diinstall, k
 
 Jika kita akan mengakses hawa yang berada pada komputer lain, kita bisa mengaksesnya dengan menggunakan alamat IP komputer tersebut. Berikut ini adalah ilustrasi untuk akses hawa dari remote komputer/laptop yang terhubung ke hub yang sama atau dalam 1 segmen jaringan:
 
-![Local network](./images/local-network.png)
+![Local network](./images/sample-network-topologi.png)
 
 Jika kondisi sambungannya seperti yang digambarkan di atas, maka kita bisa mengakses hawa dengan menggunakan alamat [`http://192.168.100.114:3000`](http://192.168.100.114:3000). Tetapi sebelum kita bisa mengakses alamat tersebut, kita harus memastikan bahwa pada firewall, port yang digunakan oleh hawa sudah diberikan akses.
 
