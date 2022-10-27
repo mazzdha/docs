@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hawa.png
+heroImage: /brand-hawa_400x363.png
 heroText: CEMS Online
 tagline: DAS & DIS Terintegrasi
 actionText: Memulai →
@@ -30,4 +30,4 @@ footerHtml: true
 
 Aplikasi CEMS Online berbasis hawa ini pada dasarnya seperti Data Aqcuitition System (DAS) dan Data Interfacing System (DIS) yang saling terintegrasi. Tetapi pada penggunaannya bisa digunakan sebagai DAS secara independen ataupun sebagai DIS secara independen.
 
-Hawa ini menggunakan antarmuka berbasis halaman web, sehingga selain mudah dioperasikan, juga akan mudah dikostumisasi ataupun diintegrasikan dengan sistem lain.
+Hawa ini aplikasi berbasis web, sehingga selain mudah dioperasikan, juga akan mudah dikostumisasi ataupun diintegrasikan dengan sistem lain.
