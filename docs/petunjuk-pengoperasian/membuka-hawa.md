@@ -41,8 +41,8 @@ Agar kita bisa mengakses fitur-fitur yang tersedia di hawa, kita harus memiliki 
 Jika belum ada perubahan, secara standar hawa memiliki 2 akun, yaitu akun admin dan operator.
 | Username | Password | Roles |
 |:-|:-|:-|
-|admin | admin123 | Administrators |
-|operator | operator | Operator|
+|admin | admin123 | administrator |
+|operator | operator | operator|
 
 Jika berhasil login, maka akan diarahkan ke halaman utama yang mungkin berbeda untuk setiap site.
 

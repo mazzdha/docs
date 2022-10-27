@@ -1,32 +1,30 @@
+import {defaultTheme} from 'vuepress'
 module.exports = {
   lang: 'id-ID',
-  title: 'Panduan',
-  description: 'Dokumentasi aplikasi CEMS Online berbasis hawa',
-
-  themeConfig: {
+  // title: 'Panduan',
+  theme:defaultTheme({
     logo: '/cems-online-light.png',
-
-    // // search: false,
-    // searchMaxSuggestions: 10,
-    searchPlaceholder: 'Search...',
+    logoDark: '/cems-online-dark.png',
 
     // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'cems-online/cems-online.github.io',
-    // Customising the header label
-    // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
-    repoLabel: 'Contribute!',
-    // Optional options for generating "Edit this page" link
-    // if your docs are in a different repo from your main project:
-    docsRepo: 'cems-online/docs',
+    repo: 'cems-online/docs',
+    repoLabel: 'Kontribusi!',
+
     // if your docs are not at the root of the repo:
     docsDir: 'docs',
     // if your docs are in a specific branch (defaults to 'master'):
-    docsBranch: 'dev',
+    docsBranch: 'main',
+    
     // defaults to false, set to true to enable
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
-    editLinkText: 'Bantu kami memperbaiki halaman ini!',
+    editLinkText: 'Perbaiki halaman ini!',
+    contributors: true,
+    contributorsText: 'Kontributor',
+    lastUpdated: true,
+    lastUpdatedText: 'Terakhir Diperbarui',
 
+    
     navbar: [
       {
         text: 'Setting',
@@ -43,7 +41,8 @@ module.exports = {
         ],
       },
     ],
-    docsDir: 'docs',
+
+    
 
     sidebar: {
       '/petunjuk-pengoperasian/': [
@@ -115,5 +114,7 @@ module.exports = {
 
       '/users/': [''],
     },
-  },
+  }),
+  description: 'Dokumentasi aplikasi CEMS Online berbasis hawa',
+
 }
