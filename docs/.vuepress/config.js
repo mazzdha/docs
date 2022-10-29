@@ -104,8 +104,10 @@ module.exports = {
               sidebarDepth: 2,
               collapsable: true,
               children: [
+                '/api/controllers/mendapatkan-csrf-token.md',
                 '/api/controllers/cerobong.md',
                 '/api/controllers/parameter.md',
+                '/api/controllers/record.md',
               ],
             },
           ],
