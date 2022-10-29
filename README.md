@@ -1,7 +1,10 @@
 # Dokumentasi Hawa - CEMS Online
 
-Kode sumber untuk dokumentasi aplikasi CEMS Online berbasis hawa.
+> Kode sumber untuk dokumentasi aplikasi CEMS Online berbasis hawa.
 
-Hosted url:
 
-[Open compiled](https://cems-online.github.io)
+## Sponsor
+
+Anda dapat memberi dukungan kepada kami dengan cara memberikan kopi
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://ko-fi.com/annlumia)
