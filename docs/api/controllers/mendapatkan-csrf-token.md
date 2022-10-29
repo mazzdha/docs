@@ -32,7 +32,7 @@ import (
 
 func main() {
 
-  url := "http://cems.pjbupmkr.com/api/v1/ping"
+  url := "http://localhost:3000/api/v1/ping"
   method := "GET"
 
   client := &http.Client {
@@ -68,7 +68,7 @@ func main() {
 var request = require('request');
 var options = {
   'method': 'GET',
-  'url': 'http://cems.pjbupmkr.com/api/v1/ping',
+  'url': 'http://localhost:3000/api/v1/ping',
   'headers': {
     'Cookie': '_csrf=QuCbiBxp7ghI6KX4LQbHSBeMev6vrWdu'
   }
@@ -86,7 +86,7 @@ request(options, function (error, response) {
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'http://cems.pjbupmkr.com/api/v1/ping',
+  CURLOPT_URL => 'http://localhost:3000/api/v1/ping',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
