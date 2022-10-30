@@ -1,7 +1,7 @@
 import {defaultTheme} from 'vuepress'
 module.exports = {
   lang: 'id-ID',
-  // title: 'Panduan',
+  title: 'Hawa CEMS Online',
   theme:defaultTheme({
     logo: '/cems-online-light.png',
     logoDark: '/cems-online-dark.png',
@@ -28,7 +28,7 @@ module.exports = {
     navbar: [
       {
         text: 'Setting',
-        link: '/setting/telegram/',
+        link: '/setting/',
       },
       {
         text: 'API',
@@ -45,6 +45,7 @@ module.exports = {
     
 
     sidebar: {
+
       '/petunjuk-pengoperasian/': [
         {
           text: 'Petunjuk Pengoperasian',
@@ -75,8 +76,10 @@ module.exports = {
           text: 'Setting',
           sidebarDepth: 3,
           collapsable: true,
+          link: '/setting/readme.md',
 
           children: [
+            '/setting/company-profile/readme.md',
             {
               text: 'Chimney',
               sidebarDepth: 3,
@@ -84,7 +87,13 @@ module.exports = {
               link: '/setting/chimney/parameter.html',
               children: ['/setting/chimney/parameter.md'],
             },
+            '/setting/sispek/readme.md',
+            '/setting/device/readme.md',
             '/setting/telegram/readme.md',
+            '/setting/report-template/readme.md',
+            '/setting/views/readme.md',
+            '/setting/users/readme.md',
+            '/setting/developer/readme.md',
           ],
         },
       ],
@@ -104,7 +113,7 @@ module.exports = {
               sidebarDepth: 2,
               collapsable: true,
               children: [
-                '/api/controllers/mendapatkan-csrf-token.md',
+                '/api/controllers/cerobong.md',
                 '/api/controllers/cerobong.md',
                 '/api/controllers/parameter.md',
                 '/api/controllers/record.md',
@@ -117,6 +126,6 @@ module.exports = {
       '/users/': [''],
     },
   }),
-  description: 'Dokumentasi aplikasi CEMS Online berbasis hawa',
+  description: 'Dokumentasi aplikasi CEMS Online berbasis Hawa',
 
 }
