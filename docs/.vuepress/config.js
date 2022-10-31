@@ -1,7 +1,7 @@
 import {defaultTheme} from 'vuepress'
 module.exports = {
   lang: 'id-ID',
-  title: 'Hawa CEMS Online',
+  title: 'Hawa',
   theme:defaultTheme({
     logo: '/cems-online-light.png',
     logoDark: '/cems-online-dark.png',
