@@ -112,8 +112,9 @@ module.exports = {
               text: 'Referensi API',
               sidebarDepth: 2,
               collapsable: true,
+              // link: '/api/index.md',
               children: [
-                '/api/controllers/cerobong.md',
+                '/api/controllers/mendapatkan-csrf-token.md',
                 '/api/controllers/cerobong.md',
                 '/api/controllers/parameter.md',
                 '/api/controllers/record.md',
