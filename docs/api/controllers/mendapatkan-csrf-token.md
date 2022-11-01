@@ -43,7 +43,6 @@ func main() {
     fmt.Println(err)
     return
   }
-  req.Header.Add("Cookie", "_csrf=QuCbiBxp7ghI6KX4LQbHSBeMev6vrWdu")
 
   res, err := client.Do(req)
   if err != nil {
@@ -68,10 +67,7 @@ func main() {
 var request = require('request');
 var options = {
   'method': 'GET',
-  'url': 'http://localhost:3000/api/v1/ping',
-  'headers': {
-    'Cookie': '_csrf=QuCbiBxp7ghI6KX4LQbHSBeMev6vrWdu'
-  }
+  'url': 'http://localhost:3000/api/v1/ping'
 };
 request(options, function (error, response) {
   if (error) throw new Error(error);
@@ -94,9 +90,6 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'GET',
-  CURLOPT_HTTPHEADER => array(
-    'Cookie: _csrf=QuCbiBxp7ghI6KX4LQbHSBeMev6vrWdu'
-  ),
 ));
 
 $response = curl_exec($curl);

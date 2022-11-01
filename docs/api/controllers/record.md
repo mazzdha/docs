@@ -85,7 +85,8 @@ func main() {
     fmt.Println(err)
     return
   }
-  req.Header.Add("x-api-key", "NE42aU4tSFZrOjdjODRiZThkNTczM2Y5YWM4OGQ1ZDlkOTdiY2QzOGZm")
+  req.Header.Add("x-api-key", "NE42aU4tSFZrOjdjODRiZThkNTczM2Y5YWM 4OGQ1ZDlkOTdiY2QzOGZm")
+  req.Header.Add("X-XSRF-Token", "csrf-token-from-cookie")
   req.Header.Add("Content-Type", "application/json")
 
   res, err := client.Do(req)
@@ -115,6 +116,7 @@ var options = {
   'url': 'http://localhost:3000/api/v1/cems/record',
   'headers': {
     'x-api-key': 'NE42aU4tSFZrOjdjODRiZThkNTczM2Y5YWM4OGQ1ZDlkOTdiY2QzOGZm',
+    'X-XSRF-Token': 'csrf-token-from-cookie',
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
@@ -167,6 +169,7 @@ curl_setopt_array($curl, array(
 }',
   CURLOPT_HTTPHEADER => array(
     'x-api-key: NE42aU4tSFZrOjdjODRiZThkNTczM2Y5YWM4OGQ1ZDlkOTdiY2QzOGZm',
+    'X-XSRF-Token': 'csrf-token-from-cookie',
     'Content-Type: application/json'
   ),
 ));
