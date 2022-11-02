@@ -22,19 +22,19 @@ Untuk versi sebelumnya membutuhkan X-XSRF-Token pada header.
 Klik [disini](mendapatkan-csrf-token.md) untuk melihat cara mendapatkan XSRF-Token.
 :::
 
-| Key | Description |
-| ------ | ------------------- |
-| X-XSRF-Token | CSRF token |
+| Key          | Description |
+| ------------ | ----------- |
+| X-XSRF-Token | CSRF token  |
 
 **Body:**
 
-| Parameter  | Tipe Data         | Wajib ada | Deskripsi              | Contoh                                 |
-| ---------- | ----------------- | --------- | ---------------------- | -------------------------------------- |
-| stackUID   | string            | ya        | UID cerobong           | "dc04ce57-b6be-4aee-aff4-fbab1a3b32ad" |
-| from       | string            | ya        | Awal waktu pengukuran  | "now()-1d" atau "1646240400000"        |
-| to         | string            | ya        | Akhir waktu pengukuran | "now()" atau "1646413199000"           |
-| parameters | array dari string | ya        | Nama parameter         | ["SO2", "SO2_C", "NOX", "NOX_C"]       |
-| avg        | string            | ya        | Rerata                 | "5m" atau "1h" atau "1d"               |
+| Parameter  | Tipe Data         | Wajib ada | Deskripsi                                                                           | Contoh                                 |
+| ---------- | ----------------- | --------- | ----------------------------------------------------------------------------------- | -------------------------------------- |
+| stackUID   | string            | ya        | UID cerobong                                                                        | "dc04ce57-b6be-4aee-aff4-fbab1a3b32ad" |
+| from       | string            | ya        | Awal waktu pengukuran                                                               | "now()-1d" atau "1646240400000"        |
+| to         | string            | ya        | Akhir waktu pengukuran                                                              | "now()" atau "1646413199000"           |
+| parameters | array dari string | ya        | Nama parameter                                                                      | ["SO2", "SO2_C", "NOX", "NOX_C"]       |
+| avg        | string            | ya        | Rerata data, durasinya bisa dalam satuan detik (s), menit (m), jam (h) dan hari (h) | "1m" untuk rerata 1 menit              |
 
 **Contoh kode**
 <CodeGroup>
