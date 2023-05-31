@@ -133,26 +133,12 @@ module.exports = {
       ],
       '/backup/': [
         {
-          text: 'Hawa Web API',
+          text: 'Panduan Backup Data Hawa',
           sidebarDepth: 3,
           collapsable: true,
 
           children: [
-            '/api/index.md',
-            '/api/getting-started.md',
-
-            {
-              text: 'Referensi API',
-              sidebarDepth: 2,
-              collapsable: true,
-              // link: '/api/index.md',
-              children: [
-                '/api/controllers/mendapatkan-csrf-token.md',
-                '/api/controllers/cerobong.md',
-                '/api/controllers/parameter.md',
-                '/api/controllers/record.md',
-              ],
-            },
+            '/backup/',
           ],
         },
       ],
