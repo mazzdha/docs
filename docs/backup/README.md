@@ -20,6 +20,6 @@
 
 ![An Image](./img/file_backup.png)
 
-  jika sudah selesai maka anda akan mendapatkan file zip dan untuk keamanan backup data hawa sudah selesai dan jangan lupa untuk start running service hawa cems kembali supaya aplikasi hawa cems dapat berjalan seperti semula.
+  Jika sudah selesai maka anda akan mendapatkan file zip dan untuk keamanan backup data hawa sudah selesai dan jangan lupa untuk start running service hawa cems kembali supaya aplikasi hawa cems dapat berjalan seperti semula.
 
 Terima kasih dan semoga dapat membantu anda.

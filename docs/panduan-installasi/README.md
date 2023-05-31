@@ -8,7 +8,7 @@
 
 - Kemudian install aplikasi ke folder baru tersebut
 
-- Setelah selesai menginstall, maka akan generate file - file seperti dibawah ini
+- Setelah proses installasi selesai, maka akan generate file - file seperti dibawah ini
 
 ![An Image](./img/file_install.png)
 
@@ -17,10 +17,7 @@
 ![An Image](./img/service.png)
 
 - Buka browser dan ketikan "localhost:3000", maka akan tampil halaman utama dari aplikasi Hawa Cems 
- login : 
- Username : admin
- Password : admin123
-
+  Kemudian lakukan login sistem.
 ![An Image](./img/login.png)
 
 - Setelah berhasil login maka akan tampil halaman utama yaitu Dashboard
