@@ -27,6 +27,10 @@ module.exports = {
     
     navbar: [
       {
+        text: 'Hawa Restore',
+        link: '/restore/',
+      },
+      {
         text: 'Setting',
         link: '/setting/',
       },
@@ -67,7 +71,11 @@ module.exports = {
           text: 'Panduan Installasi',
           sidebarDepth: 2,
           collapsable: true,
-          children: ['/dev.md'],
+          children: [
+            '/panduan-installasi/',
+            
+           
+          ]
         },
       ],
 
@@ -99,6 +107,31 @@ module.exports = {
       ],
 
       '/api/': [
+        {
+          text: 'Hawa Web API',
+          sidebarDepth: 3,
+          collapsable: true,
+
+          children: [
+            '/api/index.md',
+            '/api/getting-started.md',
+
+            {
+              text: 'Referensi API',
+              sidebarDepth: 2,
+              collapsable: true,
+              // link: '/api/index.md',
+              children: [
+                '/api/controllers/mendapatkan-csrf-token.md',
+                '/api/controllers/cerobong.md',
+                '/api/controllers/parameter.md',
+                '/api/controllers/record.md',
+              ],
+            },
+          ],
+        },
+      ],
+      '/restore/': [
         {
           text: 'Hawa Web API',
           sidebarDepth: 3,
