@@ -27,8 +27,8 @@ module.exports = {
     
     navbar: [
       {
-        text: 'Hawa Restore',
-        link: '/restore/',
+        text: 'Hawa Backup',
+        link: '/backup/',
       },
       {
         text: 'Setting',
@@ -131,7 +131,7 @@ module.exports = {
           ],
         },
       ],
-      '/restore/': [
+      '/backup/': [
         {
           text: 'Hawa Web API',
           sidebarDepth: 3,
