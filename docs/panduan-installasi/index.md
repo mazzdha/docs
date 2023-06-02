@@ -12,15 +12,15 @@ Kemudian pilih install seperti gambar dibawah ini
 
 ![An Image](./img/step1.png)
 
-Lalu tentukan lokasi file Hawa akan disimpan
+Lalu tentukan lokasi file Hawa akan disimpan, sebagai contoh seperti gambar dibawah ini
 
 ![An Image](./img/step3.png)
 
-Patikan kembali lokasi file yang akan disimpan sudah benar dan jika sudah benar maka bisa untuk pilih install jika masih ada kesalahan dalam lokasi file maka silahkan pilih back
+Patikan kembali lokasi file yang akan disimpan sudah benar dan jika sudah maka bisa untuk pilih install jika masih ada kesalahan dalam lokasi file maka silahkan pilih back.
 
 ![An Image](./img/step4.png)
 
-Tunggu sampai proses selesai, jika sudah maka pilih finish
+Tunggu sampai proses installasi selesai, jika sudah maka pilih finish
 
 ![An Image](./img/step5.png)
 

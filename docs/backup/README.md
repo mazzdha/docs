@@ -16,7 +16,7 @@
 
 - Buka folder file hawa diinstall 
 
-  Pada langkah ini, anda bisa melakukan zip semua folder yang ada seperti gambar dibawah ini
+  Pada langkah ini, anda bisa melakukan zip semua folder dan file yang ada seperti gambar dibawah ini
 
 ![An Image](./img/file_backup.png)
 
