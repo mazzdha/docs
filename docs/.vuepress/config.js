@@ -50,7 +50,7 @@ module.exports = {
 
     sidebar: {
 
-      '/petunjuk-pengoperasian/': [
+      '/petunjuk-pengoperasian/read.md': [
         {
           text: 'Petunjuk Pengoperasian',
           sidebarDepth: 2,
@@ -69,12 +69,10 @@ module.exports = {
       '/panduan-installasi/': [
         {
           text: 'Panduan Installasi',
-          sidebarDepth: 2,
+          sidebarDepth: 3,
           collapsable: true,
           children: [
-            '/panduan-installasi/',
-            
-           
+            '/panduan-installasi/index.md',           
           ]
         },
       ],
