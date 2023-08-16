@@ -13,7 +13,7 @@ jobs:
 
       - name: Build VuePress App
         type: npm
-        script: run build
+        script: run docs:build
 
       - name: Publish Build Artifacts
         type: publish
