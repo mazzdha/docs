@@ -1,21 +1,15 @@
 # Company Profile
 
-> Untuk mengakses menu Company Profile anda harus login dengan pengguna yang memiliki role administrator.
-> Setelah itu klik menu `Settings > Company Profile`.
+Menu Company Profile ini digunakan untuk mengatur identitas perusahaan yang menggunakan aplikasi HAWA CEMS Online. Untuk dapat mengakses menu Company Profile anda harus login dengan pengguna yang memiliki role administrator. Setelah itu klik menu `Settings > Company Profile`.
 
 ![Company Profile](./img//company-profile.png)
 
+Profil perusahaan ini harus diisi sesuai dengan kondisi aktual karena selain sebagai informasi user perusahaan, menu profil ini menjadi bagian untuk validasi lisensi dan dapat pula di gunakan sebagai template laporan.
 
-Halaman ini digunakan untuk mengatur identitas perusahaan yang menggunakan aplikasi Hawa CEMS Online.
+Berikut kolom isian yang berada pada menu Company Profile.
 
-Kolom yang dapat diatur pada hamalan ini diantaranya adalah:
-
-| Kolom     | Deskripsi                | Field template laporan |
-| --------- | ------------------------ | ---------------------- |
-| Name      | Nama lengkap perusahaan  | company.name           |
-| Address   | Alamat perusahaan        | company.address        |
-| Telephone | Nomor telepon perusahaan | company.telephone      |
-
-Data pada kolom-kolom tersebut juga bisa digunakan pada template laporan.
-
-Profil perusahaan ini harus diisi sesuai dengan kondisi aktual karena selain sebagai informasi pada aplikasi, ini juga akan menjadi bagian untuk validasi lisensi.
+| No  | Kolom     | Deskripsi                | Field pada template laporan |
+| --- | --------- | ------------------------ | --------------------------- |
+| 1   | Name      | Nama lengkap perusahaan  | company.name                |
+| 2   | Address   | Alamat perusahaan        | company.address             |
+| 3   | Telephone | Nomor telepon perusahaan | company.telephone           |

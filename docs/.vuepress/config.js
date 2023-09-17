@@ -84,7 +84,7 @@ module.exports = {
               text: 'Chimney',
               sidebarDepth: 3,
               collapsable: true,
-              link: '/setting/chimney/parameter.html',
+              link: '/setting/chimney/readme.md',
               children: ['/setting/chimney/parameter.md'],
             },
             '/setting/sispek/readme.md',
