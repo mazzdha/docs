@@ -1,0 +1,20 @@
+version: 1
+
+jobs:
+  build:
+    image: node:14
+    steps:
+      - name: Checkout Repository
+        type: checkout
+
+      - name: Install Dependencies
+        type: npm
+        script: install
+
+      - name: Build VuePress App
+        type: npm
+        script: run docs:build
+
+      - name: Publish Build Artifacts
+        type: publish
+        artifact_dir: .vuepress/dist

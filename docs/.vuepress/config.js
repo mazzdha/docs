@@ -27,6 +27,10 @@ module.exports = {
     
     navbar: [
       {
+        text: 'Hawa Backup',
+        link: '/backup/',
+      },
+      {
         text: 'Setting',
         link: '/setting/',
       },
@@ -46,7 +50,7 @@ module.exports = {
 
     sidebar: {
 
-      '/petunjuk-pengoperasian/': [
+      '/petunjuk-pengoperasian/read.md': [
         {
           text: 'Petunjuk Pengoperasian',
           sidebarDepth: 2,
@@ -65,9 +69,11 @@ module.exports = {
       '/panduan-installasi/': [
         {
           text: 'Panduan Installasi',
-          sidebarDepth: 2,
+          sidebarDepth: 3,
           collapsable: true,
-          children: ['/dev.md'],
+          children: [
+            '/panduan-installasi/index.md',           
+          ]
         },
       ],
 
@@ -120,6 +126,17 @@ module.exports = {
                 '/api/controllers/record.md',
               ],
             },
+          ],
+        },
+      ],
+      '/backup/': [
+        {
+          text: 'Panduan Backup Data Hawa',
+          sidebarDepth: 3,
+          collapsable: true,
+
+          children: [
+            '/backup/',
           ],
         },
       ],
