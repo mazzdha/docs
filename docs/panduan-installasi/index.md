@@ -2,21 +2,21 @@
 
 ## Persyaratan Sistem
 
-Hawa CEMS Online merupakan aplikasi yang cukup ringan, setidaknya begitu kesan beberapa pengguna yang sebelumnya sudah menggunakan aplikasi DIS lainnya kemudian mencoba menggunakan Hawa dan akhirnya memutuskan untuk seterusnya menggunakan Hawa. Tetapi walaupun "cukup ringan", kami tetap menyarankan setidaknya Hawa diinstall pada komputer dengan spesifikasi minimal seperti berikut:
+Hawa CEMS Online merupakan aplikasi yang cukup ringan, setidaknya begitu kesan beberapa pengguna yang sebelumnya sudah menggunakan aplikasi DIS (Data Interfacing System) lainnya yang kemudian mencoba menggunakan Hawa dan pada akhirnya memutuskan untuk seterusnya menggunakan Hawa. Tetapi walaupun dikatakan "cukup ringan", kami tetap menyarankan setidaknya Hawa di install pada komputer dengan spesifikasi minimal seperti berikut:
 
-1. Prosesor Intel core i7 generasi ke 8 atau lebih baru, dan akan lebih baik jika diinstall pada komputer dengan prosesor Intel® Xeon®
-2. RAM minimum yang digunakan sebaiknya adalah 8GB
-3. Kapasitan penyimpanan minimum 500GB dan akan lebih baik jika menggunakan SSD.
-4. Memiliki 2 port LAN (LAN card), 1 port untuk menyambungkan ke jaringan sumber data dan 1 lagi untuk menyambungkan ke internet.
+1. Prosesor Intel core i7 generasi ke 8 atau lebih, dan akan lebih baik jika menggunakan prosesor Intel® Xeon®
+2. RAM yang digunakan minimum sebesar 8GB
+3. Kapasitan penyimpanan minimum 500GB dan akan lebih baik jika menggunakan SSD
+4. Memiliki minimal 2 port LAN (LAN card), 1 port untuk menyambungkan ke jaringan sumber data dan 1 lagi untuk menyambungkan ke internet
 5. Menggunakan monitor dengan resolusi FHD (1920X1080 px)
-6. Sistem operasi Windows 10 Profesional 64bit atau lebih baru. Jika anda ingin menggunakan sistem operasi berbasis unix sangat memungkinkan, tetapi sebaiknya dikonsultasikan terlebih dahulu dengan vendor yang menjembatani anda dengan tim internal Hawa agar mendapatkan support yang maksimal.
+6. Sistem operasi Windows 10 Profesional 64bit atau lebih baru. Sangat memungkinkan jika anda ingin menggunakan sistem operasi berbasis UNIX, tetapi sebaiknya dikonsultasikan terlebih dahulu kami agar mendapatkan support yang maksimal.
 7. Microsoft office 2019 atau lebih baru. Ini digunakan untuk keperluan fitur report dan pengelolaan data internal perusahaan pengguna Hawa.
 
 Populasi komputer yang cukup banyak digunakan untuk menjalankan Hawa diantaranya adalah:
 1. DELL T40
 2. DELL T30
 
-> Note: Informasi merk komputer dan tipe ini sama sekali tidak ada unsur iklan atau promosi, ini murni hanya memberikan referensi kepada pengguna lain atau calon pengguna baru dengan harapan mempermudah penentuan spesifikasi teknis sehingga tidak harus mengeluarkan biaya yang sebenarnya melebihi kebutuhan. Jika anda menggunakan merk dan tipe lain, tetapi anda merasa puas dengan performanya, anda bisa menginformasikan merk dan tipe komputer tersebut kepada kami agar kami tambahkan pada daftar di atas atau langsung [menambahkan sendiri](https://github.com/cems-online/docs/edit/main/docs/panduan-installasi/index.md) pada dokumen ini.
+> Note: Informasi merk komputer dan tipe ini sama sekali tidak ada unsur iklan atau promosi, informasi ini murni hanya untuk memberikan referensi kepada pengguna lain atau calon pengguna baru dengan harapan mempermudah penentuan spesifikasi teknis sehingga efisien dalam mempersiapkan device yang akan digunakan. Jika anda menggunakan merk dan tipe lain, tetapi anda merasa puas dengan performanya, anda bisa menginformasikan merk dan tipe komputer tersebut kepada kami agar kami tambahkan pada daftar di atas atau langsung [menambahkan sendiri](https://github.com/cems-online/docs/edit/main/docs/panduan-installasi/index.md) pada dokumen ini.
 
 ## Persiapan pemasangan
 
@@ -34,10 +34,10 @@ Setelah mengetahui sistem yang dibutuhkan, sebelum memulai pemasangan aplikasi H
 
 Setelah semua siap, lakukan proses pemasangan dengan langkah-langkah sebagai berikut:
 
-1. Copy file intaller kedalam komputer yang akan dipasangi Hawa.
+1. Copy file installer kedalam komputer yang akan dipasangi Hawa.
 2. Jalankan file installer Hawa CEMS Online dengan cara klik 2 kali atau klik kanan kemudian Run as Administrator.
 3. Jika ada dialog **User Account Control** yang membutuhkan konfirmasi bahwa anda mengijinkan intaller Hawa CEMS Online melakukan perubahan pada komputer anda, klik pada tombol **YES**.
-4. Setelah intaller jalan anda akan diminta menentukan lokasi dimana aplikasi Hawa akan diinstall, sebaiknya pilih partisi yang tidak digunakan bersamaan dengan partisi sistem operasi, ini akan membantu menyelamatkan data jika dimasa mendatang perlu dilakukan install ulang sistem operasi atau ada pembaruan sistem operasi.
+4. Setelah installer jalan anda akan diminta menentukan lokasi dimana aplikasi Hawa akan diinstall, sebaiknya pilih partisi yang tidak digunakan bersamaan dengan partisi sistem operasi, ini akan membantu menyelamatkan data jika dimasa mendatang perlu dilakukan install ulang sistem operasi atau ada pembaruan sistem operasi.
 ![An Image](./img/step3.png)
 5. Setelah anda menentukan lokasi pemasangan Hawa, klik pada tombol next, dan intaller Hawa akan mengonfirmasi kepada anda tentang lokasi tersebut.
 ![An Image](./img/step4.png)
